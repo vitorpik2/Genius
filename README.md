@@ -31,9 +31,10 @@ Ou, para rodar localmente:
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-**Nome do Aluno**  
+**Vitor Fernando Dutra**  
+**Vitória Gabrielle da Rosa Gaieski**
 Projeto desenvolvido para a disciplina de **Programação Web 1 – Curso Técnico em Informática**.
 
 ---
