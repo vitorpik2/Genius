@@ -35,6 +35,7 @@ Ou, para rodar localmente:
 
 **Vitor Fernando Dutra**  
 **Vitória Gabrielle da Rosa Gaieski**
+
 Projeto desenvolvido para a disciplina de **Programação Web 1 – Curso Técnico em Informática**.
 
 ---
