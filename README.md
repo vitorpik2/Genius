@@ -20,7 +20,7 @@
 
 Você pode visualizar o jogo online através do GitHub Pages:
 
-🔗 [Clique aqui para jogar](https://github.com/vitorpik2/Genius)
+🔗 [Clique aqui para jogar](https://vitorpik2.github.io/Genius/)
 
 Ou, para rodar localmente:
 
