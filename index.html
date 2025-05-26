@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Genius Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Genius</h1>
+        <p id="nivel">Clique em Iniciar Jogo</p>
+
+        <div class="painel">
+            <div class="btn-color vermelho" onclick="verificarClique('vermelho')"></div>
+            <div class="btn-color verde" onclick="verificarClique('verde')"></div>
+            <div class="btn-color azul" onclick="verificarClique('azul')"></div>
+            <div class="btn-color amarelo" onclick="verificarClique('amarelo')"></div>
+        </div>
+
+        <div class="botoes-controle">
+            <button onclick="iniciarJogo()">Iniciar Jogo</button>
+            <button onclick="alternarTema()">Alternar Tema</button>
+            <button id="botao-som">Ligar Som</button>
+        </div>
+    </div>
+
+    <footer>
+        Recorde: <span id="recorde">0</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

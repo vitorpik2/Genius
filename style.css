@@ -1,0 +1,113 @@
+:root {
+    --vermelho: #ff4c4c;
+    --verde: #4cff4c;
+    --azul: #4c4cff;
+    --amarelo: #ffff4c;
+    --texto: #333;
+    --fundo: #f9f9f9;
+    --fundo-escuro: #1a1a1a;
+    --texto-escuro: #eee;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--fundo);
+    color: var(--texto);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.tema-escuro {
+    background-color: var(--fundo-escuro);
+    color: var(--texto-escuro);
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#nivel {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.painel {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn-color {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.vermelho {
+    background-color: var(--vermelho);
+}
+
+.verde {
+    background-color: var(--verde);
+}
+
+.azul {
+    background-color: var(--azul);
+}
+
+.amarelo {
+    background-color: var(--amarelo);
+}
+
+.btn-color.ativa {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.botoes-controle {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #222;
+    color: #fff;
+}
